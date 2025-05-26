@@ -8,5 +8,13 @@
       "client",
       "server"
     ]
+  },
+  "scripts": {
+    "dev": "bun --filter '*' dev",
+    "build": "bun --filter '*' build",
+    "start": "bun --filter '*' start",
+    "format": "bun --filter '*' format",
+    "lint": "bun --filter '*' lint",
+    "check": "bun --filter '*' check"
   }
 }
