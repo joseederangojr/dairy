@@ -1,0 +1,12 @@
+{
+  "name": "highland",
+  "type": "module",
+  "private": true,
+  "packageManager": "bun@1.2.14",
+  "workspaces": {
+    "packages": [
+      "client",
+      "server"
+    ]
+  }
+}
