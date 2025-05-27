@@ -16,5 +16,12 @@
     "format": "bun --filter '*' format",
     "lint": "bun --filter '*' lint",
     "check": "bun --filter '*' check"
+  },
+  "dependencies": {
+    "kysely": "^0.28.2",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "kysely-ctl": "^0.13.1"
   }
 }

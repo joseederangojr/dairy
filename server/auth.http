@@ -1,0 +1,32 @@
+### Auth Login #auth_login
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "joseederangojr@gmail.com",
+    "password": "password"
+}
+
+--{%
+  local body = ctx.json_body()
+  ctx.set("accessToken", body.accessToken)
+--%}
+
+### 
+
+
+### Auth Register #auth_register
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "name": "James Ederango",
+    "email": "james@ederango.com",
+    "password": "password",
+    "role": 2
+}
+
+--{%
+  local body = ctx.json_body()
+  ctx.set("accessToken", body.accessToken)
+--%}
